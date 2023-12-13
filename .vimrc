@@ -3,6 +3,7 @@ colorscheme habamax
 set relativenumber number
 set cursorline
 set hlsearch
+set incsearch
 set spell
 set wildmenu
 set nowrap

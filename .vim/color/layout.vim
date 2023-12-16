@@ -141,7 +141,7 @@ if s:t_Co >= 256
   hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
   hi ToolbarButton ctermfg=247 ctermbg=234 cterm=bold,reverse
   hi QuickFixLine ctermfg=234 ctermbg=67 cterm=NONE
-  hi CursorLineNr ctermfg=215 ctermbg=NONE cterm=bold
+  hi CursorLineNr ctermfg=250 ctermbg=NONE cterm=bold
   hi LineNr ctermfg=240 ctermbg=NONE cterm=NONE
   hi LineNrAbove ctermfg=240 ctermbg=NONE cterm=NONE
   hi LineNrBelow ctermfg=240 ctermbg=NONE cterm=NONE
@@ -167,7 +167,7 @@ if s:t_Co >= 256
   hi Question ctermfg=144 ctermbg=NONE cterm=NONE
   hi WarningMsg ctermfg=173 ctermbg=NONE cterm=NONE
   hi Todo ctermfg=186 ctermbg=234 cterm=reverse
-  hi MatchParen ctermfg=199 ctermbg=NONE cterm=bold
+  hi MatchParen ctermfg=115 ctermbg=NONE cterm=bold
   hi Search ctermfg=234 ctermbg=108 cterm=NONE
   hi IncSearch ctermfg=234 ctermbg=215 cterm=NONE
   hi CurSearch ctermfg=234 ctermbg=144 cterm=NONE
@@ -187,7 +187,7 @@ if s:t_Co >= 256
   hi String ctermfg=108 ctermbg=NONE cterm=NONE
   hi Character ctermfg=151 ctermbg=NONE cterm=NONE
   hi Identifier ctermfg=109 ctermbg=NONE cterm=NONE
-  hi Statement ctermfg=139 ctermbg=NONE cterm=NONE
+  hi Statement ctermfg=73 ctermbg=NONE cterm=NONE
   hi PreProc ctermfg=144 ctermbg=NONE cterm=NONE
   hi Type ctermfg=110 ctermbg=NONE cterm=NONE
   hi Special ctermfg=66 ctermbg=NONE cterm=NONE

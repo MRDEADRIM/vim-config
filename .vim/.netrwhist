@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/akku/project/vim-config/.vim/programs/laravel'
+let g:netrw_dirhist_7='/home/akku/.vim/programs'
+let g:netrw_dirhist_6='/home/akku/.vim'
 let g:netrw_dirhist_5='/home/akku/project/vim-config/.vim/custom'
 let g:netrw_dirhist_4='/home/akku/.vim'
 let g:netrw_dirhist_3='/home/akku/.vim/custom'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_2='/home/akku/.vim'
 let g:netrw_dirhist_1='/home/akku/.vim/custom'
 let g:netrw_dirhist_0='/home/akku/.vim'
 let g:netrw_dirhist_9='/home/akku/.vim/color'
-let g:netrw_dirhist_8='/home/akku/.vim'
-let g:netrw_dirhist_7='/home/akku/project/Android-Location-Alarm/app/src/main/java/com/mr_deadrim/location_alarm'
-let g:netrw_dirhist_6='/home/akku/project/Android-Location-Alarm/app/src/main/java/com/mr_deadrim'

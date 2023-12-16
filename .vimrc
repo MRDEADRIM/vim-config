@@ -1,3 +1,4 @@
+
 syntax on
 set relativenumber number
 set cursorline
@@ -16,13 +17,12 @@ let g:netrw_liststyle = 3
 
 " Color Scheme
 source ~/.vim/color/layout.vim
-
-"Autocommands
-source ~/.vim/custom/autocommands.vim
-
-" Key Bindings
+ 
+"Key Bindings
 source ~/.vim/custom/key_bindings.vim
 
 " Abbreviation
 source ~/.vim/custom/abbreviations.vim
 
+"Program Syntax
+source ~/.vim/programs/laravel/syntax.vim

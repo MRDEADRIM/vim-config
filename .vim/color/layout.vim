@@ -183,16 +183,16 @@ if s:t_Co >= 256
   hi SpellLocal ctermfg=108 ctermbg=NONE cterm=underline
   hi SpellRare ctermfg=182 ctermbg=NONE cterm=underline
   hi Comment ctermfg=243 ctermbg=NONE cterm=NONE
-  hi Constant ctermfg=173 ctermbg=NONE cterm=NONE
+  hi Constant ctermfg=117 ctermbg=NONE cterm=NONE
   hi String ctermfg=108 ctermbg=NONE cterm=NONE
   hi Character ctermfg=151 ctermbg=NONE cterm=NONE
   hi Identifier ctermfg=109 ctermbg=NONE cterm=NONE
   hi Statement ctermfg=73 ctermbg=NONE cterm=NONE
-  hi PreProc ctermfg=144 ctermbg=NONE cterm=NONE
+  hi PreProc ctermfg=71 ctermbg=NONE cterm=NONE
   hi Type ctermfg=110 ctermbg=NONE cterm=NONE
   hi Special ctermfg=66 ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
-  hi Title ctermfg=186 ctermbg=NONE cterm=bold
+  hi Title ctermfg=115 ctermbg=NONE cterm=bold
   hi Directory ctermfg=109 ctermbg=NONE cterm=bold
   hi Conceal ctermfg=243 ctermbg=NONE cterm=NONE
   hi Ignore ctermfg=NONE ctermbg=NONE cterm=NONE

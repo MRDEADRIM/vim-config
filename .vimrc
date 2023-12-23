@@ -6,7 +6,7 @@ set incsearch
 set spell
 set wildmenu
 set nowrap
-filetype indent on
+" filetype indent on
 set wildignore+=*/vendor,*/DESIGN,*/.git,*/node_modules
 set path+=**
 
@@ -17,15 +17,16 @@ let g:netrw_liststyle = 3
 " Color Scheme
 source ~/.vim/color/layout.vim
 
-"Key Bindings
+" Key Bindings
 source ~/.vim/custom/key_bindings.vim
 
 " Abbreviation
 source ~/.vim/custom/abbreviations.vim
 
-"Program Syntax
+" Program Syntax
 source ~/.vim/programs/laravel/syntax.vim
 
+" Script
 source ~/.vim/custom/script.vim
 
 

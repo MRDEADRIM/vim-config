@@ -6,9 +6,9 @@ set incsearch
 set spell
 set wildmenu
 set nowrap
-" filetype indent on
 set wildignore+=*/vendor,*/DESIGN,*/.git,*/node_modules
 set path+=**
+filetype indent on
 
 " Netrw Configs
 let g:netrw_banner = 0
@@ -24,9 +24,8 @@ source ~/.vim/custom/key_bindings.vim
 source ~/.vim/custom/abbreviations.vim
 
 " Program Syntax
-source ~/.vim/programs/laravel/syntax.vim
+source ~/.vim/programs/syntax.vim
 
 " Script
 source ~/.vim/custom/script.vim
-
 

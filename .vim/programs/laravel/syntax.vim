@@ -1,6 +1,4 @@
+autocmd FileType blade set filetype=php
 
-autocmd FileType blade set syntax=php
-
-
-autocmd FileType * syntax match NoHighlight "->"
+autocmd FileType blade syntax match NoHighlight "->"
 

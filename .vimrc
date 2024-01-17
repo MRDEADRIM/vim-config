@@ -15,6 +15,7 @@ set undofile
 set undodir=~/.vim/undo
 set directory=~/.vim/swap
 set laststatus=2 
+"set list
 
 let g:netrw_liststyle = 3
 " Color Scheme

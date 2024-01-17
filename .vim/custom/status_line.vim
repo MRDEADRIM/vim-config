@@ -6,7 +6,7 @@ endfunction
 
 set statusline=
 set statusline+=[%<%f\%m]
-set statusline+=%{GitBranch()}
+"set statusline+=%{GitBranch()}
 set statusline+=%r 
 set statusline+=%=  
 set statusline+=%y

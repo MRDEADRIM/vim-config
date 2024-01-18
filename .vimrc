@@ -1,4 +1,6 @@
+set nocompatible
 syntax on
+filetype indent on
 set relativenumber number
 set cursorline
 set hlsearch
@@ -6,14 +8,25 @@ set incsearch
 set spell
 set wildmenu
 set nowrap
+set backspace=start
 set wildignore+=*/vendor,*/DESIGN,*/.git,*/node_modules
 set path+=**
-filetype indent on
+set undofile
+set undodir=~/.vim/undo
+set directory=~/.vim/swap
+ 
+set laststatus=2 
+set statusline=
+set statusline+=[%<%f\]
+set statusline+=%m 
+set statusline+=%r 
+set statusline+=%=  
+set statusline+=[%n]
+set statusline+=%y
+set statusline+=[%l:%c 
+set statusline+=\ %p%%] 
 
-" Netrw Configs
-let g:netrw_banner = 0
 let g:netrw_liststyle = 3
-
 " Color Scheme
 source ~/.vim/color/layout.vim
 
@@ -28,4 +41,8 @@ source ~/.vim/programs/syntax.vim
 
 " Script
 source ~/.vim/custom/script.vim
+
+
+
+
 

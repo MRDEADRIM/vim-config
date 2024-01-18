@@ -132,7 +132,7 @@ if s:t_Co >= 256
   hi! link gitCommitSummary Title
   hi! link markdownUrl String
   hi Normal ctermfg=250 ctermbg=234 cterm=NONE
-  hi Statusline ctermfg=234 ctermbg=247 cterm=NONE
+  hi Statusline ctermfg=232 ctermbg=108 cterm=NONE
   hi StatuslineNC ctermfg=234 ctermbg=243 cterm=NONE
   hi VertSplit ctermfg=243 ctermbg=243 cterm=NONE
   hi TabLine ctermfg=234 ctermbg=243 cterm=NONE

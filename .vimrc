@@ -14,25 +14,7 @@ set path+=**
 set undofile
 set undodir=~/.vim/undo
 set directory=~/.vim/swap
- 
 set laststatus=2 
-"set statusline=
-"set statusline+=[%<%f\]
-"set statusline+=%m 
-"set statusline+=%r 
-"set statusline+=%=  
-"set statusline+=[%n]
-"set statusline+=%y
-"set statusline+=[%l:%c 
-"set statusline+=\ %p%%] 
-
-
-function Gitbranch()
-	    return trim(system("git branch 2> /dev/null | sed -e 's/..//'"))
-endfunction
-
-set statusline+=\ %t%y\~(%{Gitbranch()})
-
 
 let g:netrw_liststyle = 3
 " Color Scheme
@@ -50,7 +32,8 @@ source ~/.vim/programs/syntax.vim
 " Script
 source ~/.vim/custom/script.vim
 
-
+" Status_line
+source ~/.vim/custom/status_line.vim
 
 
 

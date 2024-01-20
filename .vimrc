@@ -17,6 +17,7 @@ set directory=~/.vim/swap
 set laststatus=2 
 
 let g:netrw_liststyle = 3
+
 " Color Scheme
 source ~/.vim/color/layout.vim
 
@@ -34,6 +35,4 @@ source ~/.vim/custom/script.vim
 
 " Status_line
 source ~/.vim/custom/status_line.vim
-
-
 

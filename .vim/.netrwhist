@@ -1,12 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
-let g:netrw_dirhist_9='/home/akku/project/pivotaltalent.io/resources/views'
-let g:netrw_dirhist_8='/home/akku/project/pivotaltalent.io/resources'
-let g:netrw_dirhist_7='/home/akku/project/wildplanetwayanad.com/admin/assets/vendor/codemirror/mode/q'
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/akku/project/vim-config'
 let g:netrw_dirhist_6='/home/akku/project/vim-config/.vim/custom'
 let g:netrw_dirhist_5='/home/akku/project/addprintrubberstamps.com.au'
 let g:netrw_dirhist_4='/home/akku/project/addprintrubberstamps.com.au/frontend/controllers'
 let g:netrw_dirhist_3='/home/akku/project/addprintrubberstamps.com.au/frontend'
 let g:netrw_dirhist_2='/home/akku/project/addprintrubberstamps.com.au/images'
 let g:netrw_dirhist_1='/home/akku/project/addprintrubberstamps.com.au'
-let g:netrw_dirhist_0='/home/akku/project/addprintrubberstamps.com.au/frontend/views/offlineorder'
+let g:netrw_dirhist_0='/home/akku/project/pivotaltalent.io/app/Http'
+let g:netrw_dirhist_9='/home/akku/project/pivotaltalent.io/resources/views'
+let g:netrw_dirhist_8='/home/akku/project/pivotaltalent.io/resources'

@@ -162,10 +162,10 @@ if s:t_Co >= 256
   hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Error ctermfg=167 ctermbg=234 cterm=reverse
   hi ErrorMsg ctermfg=167 ctermbg=234 cterm=reverse
-  hi ModeMsg ctermfg=234 ctermbg=245 cterm=NONE
+  hi ModeMsg ctermfg=250 ctermbg=None cterm=NONE
   hi MoreMsg ctermfg=108 ctermbg=NONE cterm=NONE
-  hi Question ctermfg=144 ctermbg=NONE cterm=NONE
-  hi WarningMsg ctermfg=173 ctermbg=NONE cterm=NONE
+  hi Question ctermfg=151 ctermbg=NONE cterm=NONE
+  hi WarningMsg ctermfg=151 ctermbg=NONE cterm=NONE
   hi Todo ctermfg=186 ctermbg=234 cterm=reverse
   hi MatchParen ctermfg=115 ctermbg=NONE cterm=bold
   hi Search ctermfg=234 ctermbg=108 cterm=NONE

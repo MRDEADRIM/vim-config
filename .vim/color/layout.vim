@@ -151,10 +151,10 @@ if s:t_Co >= 256
   hi FoldColumn ctermfg=240 ctermbg=NONE cterm=NONE
   hi Visual ctermfg=234 ctermbg=109 cterm=NONE
   hi VisualNOS ctermfg=234 ctermbg=66 cterm=NONE
-  hi Pmenu ctermfg=NONE ctermbg=237 cterm=NONE
+  hi Pmenu ctermfg=NONE ctermbg=235 cterm=NONE
   hi PmenuThumb ctermfg=NONE ctermbg=243 cterm=NONE
   hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi PmenuSel ctermfg=234 ctermbg=144 cterm=NONE
+  hi PmenuSel ctermfg=0 ctermbg=109 cterm=NONE
   hi PmenuKind ctermfg=173 ctermbg=237 cterm=NONE
   hi PmenuKindSel ctermfg=167 ctermbg=144 cterm=NONE
   hi PmenuExtra ctermfg=243 ctermbg=237 cterm=NONE
@@ -162,15 +162,15 @@ if s:t_Co >= 256
   hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Error ctermfg=167 ctermbg=234 cterm=reverse
   hi ErrorMsg ctermfg=167 ctermbg=234 cterm=reverse
-  hi ModeMsg ctermfg=234 ctermbg=186 cterm=NONE
+  hi ModeMsg ctermfg=234 ctermbg=245 cterm=NONE
   hi MoreMsg ctermfg=108 ctermbg=NONE cterm=NONE
   hi Question ctermfg=144 ctermbg=NONE cterm=NONE
   hi WarningMsg ctermfg=173 ctermbg=NONE cterm=NONE
   hi Todo ctermfg=186 ctermbg=234 cterm=reverse
   hi MatchParen ctermfg=115 ctermbg=NONE cterm=bold
   hi Search ctermfg=234 ctermbg=108 cterm=NONE
-  hi IncSearch ctermfg=234 ctermbg=215 cterm=NONE
-  hi CurSearch ctermfg=234 ctermbg=144 cterm=NONE
+  hi IncSearch ctermfg=234 ctermbg=250 cterm=NONE
+  hi CurSearch ctermfg=234 ctermbg=151 cterm=NONE
   hi WildMenu ctermfg=234 ctermbg=186 cterm=NONE
   hi debugPC ctermfg=234 ctermbg=67 cterm=NONE
   hi debugBreakpoint ctermfg=234 ctermbg=173 cterm=NONE

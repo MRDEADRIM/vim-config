@@ -33,6 +33,8 @@ source ~/.vim/programs/syntax.vim
 " Script
 source ~/.vim/custom/script.vim
 
-" Status_line
+" Status line
 source ~/.vim/custom/status_line.vim
 
+" Plugin Manager External Plugins
+source ~/.vim/external/external_plugin.vim

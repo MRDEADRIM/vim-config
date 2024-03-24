@@ -2,9 +2,11 @@
 
 vnoremap <C-C> :w !xclip -selection clipboard<CR><CR>
 
+let mapleader = ","
 
 "External
 
-nnoremap <F5> :UndotreeToggle<CR>
+nnoremap <Leader>u :UndotreeToggle<CR>
 
+nnoremap <Leader>f :FZF<CR>
 

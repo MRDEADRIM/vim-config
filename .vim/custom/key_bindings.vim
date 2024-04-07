@@ -1,29 +1,27 @@
 "nnoremap <c-b> :vertical Lex 25<CR>
 
-vnoremap <C-C> :w !xclip -selection clipboard<CR><CR>
 
-let mapLeader = ","
+let mapleader = ","
 
-"External
+"Copy
+vnoremap <Leader>:c !xclip -selection clipboard<CR><CR>
 
+"Netrw
+nnoremap <Leader>t :terminal<CR>
+
+"Netrw
+nnoremap <Leader>n :vertical Lex 25<CR>
+
+"Undotree
 nnoremap <Leader>u :UndotreeToggle<CR>
 
+"Fzf 
 nnoremap <Leader>f :FZF<CR>
 
-
-"Git Keybinding
-nnoremap <Leader>gs :Git<CR>
-nnoremap <Leader>gc :Gcommit -v -q<CR>
-nnoremap <Leader>ga :Gcommit --amend<CR>
-nnoremap <Leader>gt :Gcommit -v -q %<CR>
+"Git 
+nnoremap <Leader>gs :Git<CR>:resize 30<CR>
 nnoremap <Leader>gd :Gdiff<CR>
-nnoremap <Leader>ge :Gedit<CR>
-nnoremap <Leader>gr :Gread<CR>
-nnoremap <Leader>gw :Gwrite<CR><CR>
-nnoremap <Leader>gl :silent! Glog<CR>
-nnoremap <Leader>gp :Ggrep<Space>
-nnoremap <Leader>gm :Gmove<Space>
 nnoremap <Leader>gb :Git branch<Space>
-nnoremap <Leader>go :Git checkout<Space>
-nnoremap <Leader>gps :Dispatch! git push<CR>
-nnoremap <Leader>gpl :Dispatch! git pull<CR>
+nnoremap <Leader>gc :Git checkout<Space>
+
+

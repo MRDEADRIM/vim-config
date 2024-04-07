@@ -17,6 +17,8 @@ set directory=~/.vim/swap
 set wildignore+=*/vendor,*/DESIGN,*/.git,*/node_modules
 set laststatus=2 
 let g:netrw_liststyle = 3
+set splitbelow
+
 
 " Color Scheme
 source ~/.vim/color/layout.vim
@@ -38,3 +40,5 @@ source ~/.vim/custom/status_line.vim
 
 " Plugin Manager External Plugins
 source ~/.vim/external/external_plugin.vim
+ 
+

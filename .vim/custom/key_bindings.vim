@@ -4,7 +4,7 @@
 let mapleader = ","
 
 "Copy
-vnoremap <Leader>:c !xclip -selection clipboard<CR><CR>
+vnoremap <c-c> !xclip -selection clipboard<CR><CR>
 
 "Netrw
 nnoremap <Leader>t :terminal<CR>

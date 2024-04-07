@@ -19,7 +19,6 @@ set laststatus=2
 let g:netrw_liststyle = 3
 set splitbelow
 
-
 " Color Scheme
 source ~/.vim/color/layout.vim
 
